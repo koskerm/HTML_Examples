@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<body>
+
+<body>
+	<script>
+	var sifre = "123";
+        var hak = 3;
+        while (hak>0) {
+            var mesaj = prompt("Şifreyi Girin");	          
+		  	hak--;
+           
+            if (mesaj == sifre) {
+                document.write("HOŞGELDİNİZ");
+                break;	            }
+            else {	               
+	 		alert("Son " + hak + " hakkınız kaldı");
+         	   }    
+      	  }	     
+   			if (hak == 0) 
+   			{
+            document.write("İZİNSİZ GİREMEZSİNİZ");
+       		 }	
+    </script>
+
+
+</body>
+</html>

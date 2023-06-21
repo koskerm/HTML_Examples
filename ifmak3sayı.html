@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- Exercise 7.18 Solution -->
+
+<html>
+   <head>
+      <title>Solution 7.18</title>
+
+      <script type = "text/javascript">
+         <!--
+         var number1, number2, number3, 
+             firstNumber, secondNumber, thirdNumber,
+             largest, smallest;
+
+         number1 = window.prompt(
+            "Enter the first number", "0" );
+         number2 = window.prompt(
+            "Enter the second number", "0" );
+         number3 = window.prompt(
+            "Enter the third number", "0" );
+   
+         firstNumber = parseInt ( number1 );
+         secondNumber = parseInt ( number2 );
+         thirdNumber = parseInt ( number3 );
+
+         largest = firstNumber;
+         smallest = firstNumber;
+
+         if ( secondNumber > largest )
+            largest = secondNumber;
+
+         if ( thirdNumber > largest )
+            largest = thirdNumber;
+
+         if ( secondNumber < smallest )
+            smallest = secondNumber;
+
+         if ( thirdNumber < smallest )
+            smallest = thirdNumber;   
+  
+         window.alert( 
+            "Sum: " + ( firstNumber + secondNumber + 
+            thirdNumber ) + "\n" + "Average: " + ( (firstNumber
+            + secondNumber + thirdNumber) / 3 ) + "\n" +
+            "Product: " + ( firstNumber * secondNumber * 
+            thirdNumber ) + "\n" + "Largest: " + largest + 
+            "\n" + "Smallest: " + smallest );
+         // -->
+      </script>
+   </head>
+
+   <body>
+      <p>Click Refresh (or Reload) to run the script again</p>
+   </body>
+</html>
+
