@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+ 
+<body>
+    <input type="text" id="txtMetin1" placeholder="Metn1 Girin.">
+    <input type="text" id="txtMetin2" placeholder="Metn2 Girin.">
+    <input type="number" id="txtSayi" placeholder="Sayıyı Girin.">
+    <button id="btn">YAZDIR</button>
+    <div id="kutu"></div>
+    
+    <script>
+        btn.onclick=function(){
+            var adet=Number(txtSayi.value);
+            var metin1=txtMetin1.value;
+            var metin2=txtMetin2.value;
+            kutu.innerHTML="";
+          
+            
+            for(var i=1;i<=adet;i++){
+            kutu.innerHTML+=i+"."+metin1+ " "+metin2+"<br>";
+           
+            }
+        }
+        
+    </script>
+</body>
+</html>
+ 
